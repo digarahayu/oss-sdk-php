@@ -1,24 +1,26 @@
 {
-    "name": "aliyuncs/oss-sdk-php",
+    "name": "jefri/oss-sdk-php",
     "description": "Aliyun OSS SDK for PHP",
     "homepage": "http://www.aliyun.com/product/oss/",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Aliyuncs",
-            "homepage": "http://www.aliyun.com"
+            "name": "Jefri",
+            "homepage": "http://www.jefri-fernando.com"
         }
     ],
     "require": {
-        "php":">=5.3"
+        "php": ">=5.3"
     },
-    "require-dev" : {
+    "require-dev": {
         "phpunit/phpunit": "*",
         "satooshi/php-coveralls": "*"
     },
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"OSS\\": "src/OSS"}
+        "psr-4": {
+            "OSS\\": "src/OSS"
+        }
     }
 }
